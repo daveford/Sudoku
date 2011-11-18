@@ -28,6 +28,8 @@ public:
 
 	//function prototypes
 	ostream& print( ostream& );
+	void turnOff(int n);
+	void mark(char c);
 	void addCluster(Cluster* c);
 };
 

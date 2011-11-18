@@ -12,17 +12,17 @@ typedef unsigned short int usInt;
 class SquareState
 {
 protected:
-	sInt PsblCount;
-	usInt PsblBit;
+	sInt psblCount;
+	usInt psblBit;
 	char Value;
 public:
-	SquareState() : PsblCount(9), PsblBit(0x03FE), Value('-') {};
+	SquareState() : psblCount(9), psblBit(0x03FE), Value('-') {};
 
 	~SquareState() {};
 
 	ostream& print( ostream& );
-	virtual turnOff(int n);
-	virtual mark(char c);
+	virtual void turnOff(int n);
+	virtual void mark(char c){Value = c;};
 };
 
 inline ostream& operator << (ostream& out, SquareState& sq)

@@ -2,8 +2,11 @@ CC=g++
 CFLAGS=-std=c++98 -ggdb
 LIBS=
 
-Sudoku: Cluster.o Square.o Board.o Test.o tools.o
-	$(CC) -o Sudoku Cluster.o Square.o Board.o Test.o tools.o $(LIBS)
+Sudoku: Cluster.o Square.o Board.o Test.o tools.o SquareState.o
+	$(CC) -o Sudoku Cluster.o Square.o Board.o Test.o tools.o SquareState.o $(LIBS)
+	
+SquareState.o: SquareState.cpp
+	$(CC) -c SquareState.cpp $(CFLAGS)
 
 Cluster.o: Cluster.cpp
 	$(CC) -c Cluster.cpp $(CFLAGS)

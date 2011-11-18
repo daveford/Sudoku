@@ -25,18 +25,11 @@ The print function for the Square class
 Prints in the form "Square [(row#), (col#)] Value: (value)"
 -----------------------------------------------------------------------------*/
 ostream& Square::print(ostream& st)
-{ 
-	sInt mask = 0x0001;
-	usInt psblBit_copy = psblBit;
-	st << "Square [" << row << ", " << col << "] Value: " << value << " ";
+{
+	//st = SquareState::print(st);
+	st << "Square [" << row << ", " << col << "] ";
 	//if(!st){ cout << "Invalid output stream." << endl; return st; }
-	st << "Possibilites: ";
-	for(int k=1; k<=9; k++)
-	{
-		mask <<= 1;
-		if((mask & psblBit_copy) != 0) st << k;
-		else st << " ";
-	}
+	SquareState::print(st);
 	st << endl;
 	return st;
 }
@@ -47,7 +40,7 @@ Then make readjust neighbors
 -----------------------------------------------------------------------------*/
 void Square::mark(char value)
 {
-	this->value = value;
+	SquareState::mark(value);
 	for(scan = cluster.begin(); scan<cluster.end(); scan++)
 		(*scan)->shoop(this, value);
 }
@@ -57,10 +50,11 @@ turn off the position, n, in the squares possibility list
 -----------------------------------------------------------------------------*/
 void Square::turnOff(int n)
 {
-	sInt mask = 1;
+	SquareState::turnOff(n);
+	/*sInt mask = 1;
 	mask <<= n;
 	psblBit = ~mask & psblBit;
-	psblC--;
+	psblC--;*/
 }
 
 /*-----------------------------------------------------------------------------
