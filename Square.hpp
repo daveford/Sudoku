@@ -31,6 +31,7 @@ public:
 	void turnOff(int n);
 	void mark(char c);
 	void addCluster(Cluster* c);
+	SquareState* GetState(){return (SquareState*) this;};
 };
 
 inline ostream& operator << (ostream& out, Square& sq)

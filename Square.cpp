@@ -43,7 +43,7 @@ void Square::mark(char value)
 	SquareState::mark(value);
 	for(scan = cluster.begin(); scan<cluster.end(); scan++)
 		(*scan)->shoop(this, value);
-}
+} 
 
 /*-----------------------------------------------------------------------------
 turn off the position, n, in the squares possibility list
