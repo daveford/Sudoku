@@ -1,0 +1,438 @@
+
+-------------------------------------------------------------
+	David Ford
+	CS 626
+	Thu Nov 17 2011	19:07:20
+---------------------------------------------------------------
+Square [1, 1] Value: - Possibilites: 12345678 
+Square [1, 2] Value: - Possibilites: 12345678 
+Square [1, 3] Value: - Possibilites: 12345678 
+Square [1, 4] Value: - Possibilites: 123456789
+Square [1, 5] Value: - Possibilites: 123456789
+Square [1, 6] Value: - Possibilites: 1234 6789
+Square [1, 7] Value: - Possibilites: 12 456 89
+Square [1, 8] Value: - Possibilites: 123456789
+Square [1, 9] Value: - Possibilites:  23 56789
+Square [2, 1] Value: - Possibilites: 12345678 
+Square [2, 2] Value: - Possibilites: 12345678 
+Square [2, 3] Value: - Possibilites: 12345678 
+Square [2, 4] Value: - Possibilites: 123456789
+Square [2, 5] Value: - Possibilites: 123456789
+Square [2, 6] Value: - Possibilites: 1234 6789
+Square [2, 7] Value: - Possibilites: 12 456 89
+Square [2, 8] Value: - Possibilites: 123456789
+Square [2, 9] Value: - Possibilites:  23 56789
+Square [3, 1] Value: - Possibilites: 12345678 
+Square [3, 2] Value: 9 Possibilites: 12345678 
+Square [3, 3] Value: - Possibilites: 12345678 
+Square [3, 4] Value: - Possibilites: 12345678 
+Square [3, 5] Value: - Possibilites: 12345678 
+Square [3, 6] Value: - Possibilites: 1234 678 
+Square [3, 7] Value: - Possibilites: 12 456 8 
+Square [3, 8] Value: - Possibilites: 12345678 
+Square [3, 9] Value: - Possibilites:  23 5678 
+Square [4, 1] Value: - Possibilites: 12 456789
+Square [4, 2] Value: - Possibilites: 12 45678 
+Square [4, 3] Value: - Possibilites: 12 456789
+Square [4, 4] Value: - Possibilites: 12 456789
+Square [4, 5] Value: - Possibilites: 12 456789
+Square [4, 6] Value: - Possibilites: 12 4 6789
+Square [4, 7] Value: 3 Possibilites: 12  56 89
+Square [4, 8] Value: - Possibilites: 12  56 89
+Square [4, 9] Value: - Possibilites:  2  56 89
+Square [5, 1] Value: - Possibilites: 123 56789
+Square [5, 2] Value: - Possibilites: 123 5678 
+Square [5, 3] Value: - Possibilites: 123 56789
+Square [5, 4] Value: - Possibilites: 123 56789
+Square [5, 5] Value: - Possibilites: 123 56789
+Square [5, 6] Value: - Possibilites: 123  6789
+Square [5, 7] Value: - Possibilites: 12  56 89
+Square [5, 8] Value: - Possibilites: 12  56 89
+Square [5, 9] Value: 4 Possibilites:  2  56 89
+Square [6, 1] Value: - Possibilites: 123456 89
+Square [6, 2] Value: - Possibilites: 123456 8 
+Square [6, 3] Value: - Possibilites: 123456 89
+Square [6, 4] Value: - Possibilites: 123456 89
+Square [6, 5] Value: - Possibilites: 123456 89
+Square [6, 6] Value: - Possibilites: 1234 6 89
+Square [6, 7] Value: 7 Possibilites: 12  56 89
+Square [6, 8] Value: - Possibilites: 12  56 89
+Square [6, 9] Value: - Possibilites:  2  56 89
+Square [7, 1] Value: - Possibilites: 123456789
+Square [7, 2] Value: - Possibilites: 12345678 
+Square [7, 3] Value: - Possibilites: 123456789
+Square [7, 4] Value: - Possibilites: 1234 6789
+Square [7, 5] Value: - Possibilites: 1234 6789
+Square [7, 6] Value: - Possibilites: 1234 6789
+Square [7, 7] Value: - Possibilites:  2 456 89
+Square [7, 8] Value: - Possibilites:  23456789
+Square [7, 9] Value: - Possibilites:  23 56789
+Square [8, 1] Value: - Possibilites: 1234 6789
+Square [8, 2] Value: - Possibilites: 1234 678 
+Square [8, 3] Value: - Possibilites: 1234 6789
+Square [8, 4] Value: - Possibilites: 1234 6789
+Square [8, 5] Value: - Possibilites: 1234 6789
+Square [8, 6] Value: 5 Possibilites: 1234 6789
+Square [8, 7] Value: - Possibilites:  2 4 6 89
+Square [8, 8] Value: - Possibilites:  234 6789
+Square [8, 9] Value: - Possibilites:  23  6789
+Square [9, 1] Value: - Possibilites:  23456789
+Square [9, 2] Value: - Possibilites:  2345678 
+Square [9, 3] Value: - Possibilites:  23456789
+Square [9, 4] Value: - Possibilites:  234 6789
+Square [9, 5] Value: - Possibilites:  234 6789
+Square [9, 6] Value: - Possibilites:  234 6789
+Square [9, 7] Value: - Possibilites:  2 456 89
+Square [9, 8] Value: - Possibilites:  23456789
+Square [9, 9] Value: 1 Possibilites:  23 56789
+-----------------------------------------------------
+Row
+Square [1, 1] Value: - Possibilites: 12345678 
+Square [1, 2] Value: - Possibilites: 12345678 
+Square [1, 3] Value: - Possibilites: 12345678 
+Square [1, 4] Value: - Possibilites: 123456789
+Square [1, 5] Value: - Possibilites: 123456789
+Square [1, 6] Value: - Possibilites: 1234 6789
+Square [1, 7] Value: - Possibilites: 12 456 89
+Square [1, 8] Value: - Possibilites: 123456789
+Square [1, 9] Value: - Possibilites:  23 56789
+
+
+-----------------------------------------------------
+Row
+Square [2, 1] Value: - Possibilites: 12345678 
+Square [2, 2] Value: - Possibilites: 12345678 
+Square [2, 3] Value: - Possibilites: 12345678 
+Square [2, 4] Value: - Possibilites: 123456789
+Square [2, 5] Value: - Possibilites: 123456789
+Square [2, 6] Value: - Possibilites: 1234 6789
+Square [2, 7] Value: - Possibilites: 12 456 89
+Square [2, 8] Value: - Possibilites: 123456789
+Square [2, 9] Value: - Possibilites:  23 56789
+
+
+-----------------------------------------------------
+Row
+Square [3, 1] Value: - Possibilites: 12345678 
+Square [3, 2] Value: 9 Possibilites: 12345678 
+Square [3, 3] Value: - Possibilites: 12345678 
+Square [3, 4] Value: - Possibilites: 12345678 
+Square [3, 5] Value: - Possibilites: 12345678 
+Square [3, 6] Value: - Possibilites: 1234 678 
+Square [3, 7] Value: - Possibilites: 12 456 8 
+Square [3, 8] Value: - Possibilites: 12345678 
+Square [3, 9] Value: - Possibilites:  23 5678 
+
+
+-----------------------------------------------------
+Row
+Square [4, 1] Value: - Possibilites: 12 456789
+Square [4, 2] Value: - Possibilites: 12 45678 
+Square [4, 3] Value: - Possibilites: 12 456789
+Square [4, 4] Value: - Possibilites: 12 456789
+Square [4, 5] Value: - Possibilites: 12 456789
+Square [4, 6] Value: - Possibilites: 12 4 6789
+Square [4, 7] Value: 3 Possibilites: 12  56 89
+Square [4, 8] Value: - Possibilites: 12  56 89
+Square [4, 9] Value: - Possibilites:  2  56 89
+
+
+-----------------------------------------------------
+Row
+Square [5, 1] Value: - Possibilites: 123 56789
+Square [5, 2] Value: - Possibilites: 123 5678 
+Square [5, 3] Value: - Possibilites: 123 56789
+Square [5, 4] Value: - Possibilites: 123 56789
+Square [5, 5] Value: - Possibilites: 123 56789
+Square [5, 6] Value: - Possibilites: 123  6789
+Square [5, 7] Value: - Possibilites: 12  56 89
+Square [5, 8] Value: - Possibilites: 12  56 89
+Square [5, 9] Value: 4 Possibilites:  2  56 89
+
+
+-----------------------------------------------------
+Row
+Square [6, 1] Value: - Possibilites: 123456 89
+Square [6, 2] Value: - Possibilites: 123456 8 
+Square [6, 3] Value: - Possibilites: 123456 89
+Square [6, 4] Value: - Possibilites: 123456 89
+Square [6, 5] Value: - Possibilites: 123456 89
+Square [6, 6] Value: - Possibilites: 1234 6 89
+Square [6, 7] Value: 7 Possibilites: 12  56 89
+Square [6, 8] Value: - Possibilites: 12  56 89
+Square [6, 9] Value: - Possibilites:  2  56 89
+
+
+-----------------------------------------------------
+Row
+Square [7, 1] Value: - Possibilites: 123456789
+Square [7, 2] Value: - Possibilites: 12345678 
+Square [7, 3] Value: - Possibilites: 123456789
+Square [7, 4] Value: - Possibilites: 1234 6789
+Square [7, 5] Value: - Possibilites: 1234 6789
+Square [7, 6] Value: - Possibilites: 1234 6789
+Square [7, 7] Value: - Possibilites:  2 456 89
+Square [7, 8] Value: - Possibilites:  23456789
+Square [7, 9] Value: - Possibilites:  23 56789
+
+
+-----------------------------------------------------
+Row
+Square [8, 1] Value: - Possibilites: 1234 6789
+Square [8, 2] Value: - Possibilites: 1234 678 
+Square [8, 3] Value: - Possibilites: 1234 6789
+Square [8, 4] Value: - Possibilites: 1234 6789
+Square [8, 5] Value: - Possibilites: 1234 6789
+Square [8, 6] Value: 5 Possibilites: 1234 6789
+Square [8, 7] Value: - Possibilites:  2 4 6 89
+Square [8, 8] Value: - Possibilites:  234 6789
+Square [8, 9] Value: - Possibilites:  23  6789
+
+
+-----------------------------------------------------
+Row
+Square [9, 1] Value: - Possibilites:  23456789
+Square [9, 2] Value: - Possibilites:  2345678 
+Square [9, 3] Value: - Possibilites:  23456789
+Square [9, 4] Value: - Possibilites:  234 6789
+Square [9, 5] Value: - Possibilites:  234 6789
+Square [9, 6] Value: - Possibilites:  234 6789
+Square [9, 7] Value: - Possibilites:  2 456 89
+Square [9, 8] Value: - Possibilites:  23456789
+Square [9, 9] Value: 1 Possibilites:  23 56789
+
+
+-----------------------------------------------------
+Column
+Square [1, 1] Value: - Possibilites: 12345678 
+Square [2, 1] Value: - Possibilites: 12345678 
+Square [3, 1] Value: - Possibilites: 12345678 
+Square [4, 1] Value: - Possibilites: 12 456789
+Square [5, 1] Value: - Possibilites: 123 56789
+Square [6, 1] Value: - Possibilites: 123456 89
+Square [7, 1] Value: - Possibilites: 123456789
+Square [8, 1] Value: - Possibilites: 1234 6789
+Square [9, 1] Value: - Possibilites:  23456789
+
+
+-----------------------------------------------------
+Column
+Square [1, 2] Value: - Possibilites: 12345678 
+Square [2, 2] Value: - Possibilites: 12345678 
+Square [3, 2] Value: 9 Possibilites: 12345678 
+Square [4, 2] Value: - Possibilites: 12 45678 
+Square [5, 2] Value: - Possibilites: 123 5678 
+Square [6, 2] Value: - Possibilites: 123456 8 
+Square [7, 2] Value: - Possibilites: 12345678 
+Square [8, 2] Value: - Possibilites: 1234 678 
+Square [9, 2] Value: - Possibilites:  2345678 
+
+
+-----------------------------------------------------
+Column
+Square [1, 3] Value: - Possibilites: 12345678 
+Square [2, 3] Value: - Possibilites: 12345678 
+Square [3, 3] Value: - Possibilites: 12345678 
+Square [4, 3] Value: - Possibilites: 12 456789
+Square [5, 3] Value: - Possibilites: 123 56789
+Square [6, 3] Value: - Possibilites: 123456 89
+Square [7, 3] Value: - Possibilites: 123456789
+Square [8, 3] Value: - Possibilites: 1234 6789
+Square [9, 3] Value: - Possibilites:  23456789
+
+
+-----------------------------------------------------
+Column
+Square [1, 4] Value: - Possibilites: 123456789
+Square [2, 4] Value: - Possibilites: 123456789
+Square [3, 4] Value: - Possibilites: 12345678 
+Square [4, 4] Value: - Possibilites: 12 456789
+Square [5, 4] Value: - Possibilites: 123 56789
+Square [6, 4] Value: - Possibilites: 123456 89
+Square [7, 4] Value: - Possibilites: 1234 6789
+Square [8, 4] Value: - Possibilites: 1234 6789
+Square [9, 4] Value: - Possibilites:  234 6789
+
+
+-----------------------------------------------------
+Column
+Square [1, 5] Value: - Possibilites: 123456789
+Square [2, 5] Value: - Possibilites: 123456789
+Square [3, 5] Value: - Possibilites: 12345678 
+Square [4, 5] Value: - Possibilites: 12 456789
+Square [5, 5] Value: - Possibilites: 123 56789
+Square [6, 5] Value: - Possibilites: 123456 89
+Square [7, 5] Value: - Possibilites: 1234 6789
+Square [8, 5] Value: - Possibilites: 1234 6789
+Square [9, 5] Value: - Possibilites:  234 6789
+
+
+-----------------------------------------------------
+Column
+Square [1, 6] Value: - Possibilites: 1234 6789
+Square [2, 6] Value: - Possibilites: 1234 6789
+Square [3, 6] Value: - Possibilites: 1234 678 
+Square [4, 6] Value: - Possibilites: 12 4 6789
+Square [5, 6] Value: - Possibilites: 123  6789
+Square [6, 6] Value: - Possibilites: 1234 6 89
+Square [7, 6] Value: - Possibilites: 1234 6789
+Square [8, 6] Value: 5 Possibilites: 1234 6789
+Square [9, 6] Value: - Possibilites:  234 6789
+
+
+-----------------------------------------------------
+Column
+Square [1, 7] Value: - Possibilites: 12 456 89
+Square [2, 7] Value: - Possibilites: 12 456 89
+Square [3, 7] Value: - Possibilites: 12 456 8 
+Square [4, 7] Value: 3 Possibilites: 12  56 89
+Square [5, 7] Value: - Possibilites: 12  56 89
+Square [6, 7] Value: 7 Possibilites: 12  56 89
+Square [7, 7] Value: - Possibilites:  2 456 89
+Square [8, 7] Value: - Possibilites:  2 4 6 89
+Square [9, 7] Value: - Possibilites:  2 456 89
+
+
+-----------------------------------------------------
+Column
+Square [1, 8] Value: - Possibilites: 123456789
+Square [2, 8] Value: - Possibilites: 123456789
+Square [3, 8] Value: - Possibilites: 12345678 
+Square [4, 8] Value: - Possibilites: 12  56 89
+Square [5, 8] Value: - Possibilites: 12  56 89
+Square [6, 8] Value: - Possibilites: 12  56 89
+Square [7, 8] Value: - Possibilites:  23456789
+Square [8, 8] Value: - Possibilites:  234 6789
+Square [9, 8] Value: - Possibilites:  23456789
+
+
+-----------------------------------------------------
+Column
+Square [1, 9] Value: - Possibilites:  23 56789
+Square [2, 9] Value: - Possibilites:  23 56789
+Square [3, 9] Value: - Possibilites:  23 5678 
+Square [4, 9] Value: - Possibilites:  2  56 89
+Square [5, 9] Value: 4 Possibilites:  2  56 89
+Square [6, 9] Value: - Possibilites:  2  56 89
+Square [7, 9] Value: - Possibilites:  23 56789
+Square [8, 9] Value: - Possibilites:  23  6789
+Square [9, 9] Value: 1 Possibilites:  23 56789
+
+
+-----------------------------------------------------
+Box
+Square [1, 1] Value: - Possibilites: 12345678 
+Square [1, 2] Value: - Possibilites: 12345678 
+Square [1, 3] Value: - Possibilites: 12345678 
+Square [2, 1] Value: - Possibilites: 12345678 
+Square [2, 2] Value: - Possibilites: 12345678 
+Square [2, 3] Value: - Possibilites: 12345678 
+Square [3, 1] Value: - Possibilites: 12345678 
+Square [3, 2] Value: 9 Possibilites: 12345678 
+Square [3, 3] Value: - Possibilites: 12345678 
+
+
+-----------------------------------------------------
+Box
+Square [1, 4] Value: - Possibilites: 123456789
+Square [1, 5] Value: - Possibilites: 123456789
+Square [1, 6] Value: - Possibilites: 1234 6789
+Square [2, 4] Value: - Possibilites: 123456789
+Square [2, 5] Value: - Possibilites: 123456789
+Square [2, 6] Value: - Possibilites: 1234 6789
+Square [3, 4] Value: - Possibilites: 12345678 
+Square [3, 5] Value: - Possibilites: 12345678 
+Square [3, 6] Value: - Possibilites: 1234 678 
+
+
+-----------------------------------------------------
+Box
+Square [1, 7] Value: - Possibilites: 12 456 89
+Square [1, 8] Value: - Possibilites: 123456789
+Square [1, 9] Value: - Possibilites:  23 56789
+Square [2, 7] Value: - Possibilites: 12 456 89
+Square [2, 8] Value: - Possibilites: 123456789
+Square [2, 9] Value: - Possibilites:  23 56789
+Square [3, 7] Value: - Possibilites: 12 456 8 
+Square [3, 8] Value: - Possibilites: 12345678 
+Square [3, 9] Value: - Possibilites:  23 5678 
+
+
+-----------------------------------------------------
+Box
+Square [4, 1] Value: - Possibilites: 12 456789
+Square [4, 2] Value: - Possibilites: 12 45678 
+Square [4, 3] Value: - Possibilites: 12 456789
+Square [5, 1] Value: - Possibilites: 123 56789
+Square [5, 2] Value: - Possibilites: 123 5678 
+Square [5, 3] Value: - Possibilites: 123 56789
+Square [6, 1] Value: - Possibilites: 123456 89
+Square [6, 2] Value: - Possibilites: 123456 8 
+Square [6, 3] Value: - Possibilites: 123456 89
+
+
+-----------------------------------------------------
+Box
+Square [4, 4] Value: - Possibilites: 12 456789
+Square [4, 5] Value: - Possibilites: 12 456789
+Square [4, 6] Value: - Possibilites: 12 4 6789
+Square [5, 4] Value: - Possibilites: 123 56789
+Square [5, 5] Value: - Possibilites: 123 56789
+Square [5, 6] Value: - Possibilites: 123  6789
+Square [6, 4] Value: - Possibilites: 123456 89
+Square [6, 5] Value: - Possibilites: 123456 89
+Square [6, 6] Value: - Possibilites: 1234 6 89
+
+
+-----------------------------------------------------
+Box
+Square [4, 7] Value: 3 Possibilites: 12  56 89
+Square [4, 8] Value: - Possibilites: 12  56 89
+Square [4, 9] Value: - Possibilites:  2  56 89
+Square [5, 7] Value: - Possibilites: 12  56 89
+Square [5, 8] Value: - Possibilites: 12  56 89
+Square [5, 9] Value: 4 Possibilites:  2  56 89
+Square [6, 7] Value: 7 Possibilites: 12  56 89
+Square [6, 8] Value: - Possibilites: 12  56 89
+Square [6, 9] Value: - Possibilites:  2  56 89
+
+
+-----------------------------------------------------
+Box
+Square [7, 1] Value: - Possibilites: 123456789
+Square [7, 2] Value: - Possibilites: 12345678 
+Square [7, 3] Value: - Possibilites: 123456789
+Square [8, 1] Value: - Possibilites: 1234 6789
+Square [8, 2] Value: - Possibilites: 1234 678 
+Square [8, 3] Value: - Possibilites: 1234 6789
+Square [9, 1] Value: - Possibilites:  23456789
+Square [9, 2] Value: - Possibilites:  2345678 
+Square [9, 3] Value: - Possibilites:  23456789
+
+
+-----------------------------------------------------
+Box
+Square [7, 4] Value: - Possibilites: 1234 6789
+Square [7, 5] Value: - Possibilites: 1234 6789
+Square [7, 6] Value: - Possibilites: 1234 6789
+Square [8, 4] Value: - Possibilites: 1234 6789
+Square [8, 5] Value: - Possibilites: 1234 6789
+Square [8, 6] Value: 5 Possibilites: 1234 6789
+Square [9, 4] Value: - Possibilites:  234 6789
+Square [9, 5] Value: - Possibilites:  234 6789
+Square [9, 6] Value: - Possibilites:  234 6789
+
+
+-----------------------------------------------------
+Box
+Square [7, 7] Value: - Possibilites:  2 456 89
+Square [7, 8] Value: - Possibilites:  23456789
+Square [7, 9] Value: - Possibilites:  23 56789
+Square [8, 7] Value: - Possibilites:  2 4 6 89
+Square [8, 8] Value: - Possibilites:  234 6789
+Square [8, 9] Value: - Possibilites:  23  6789
+Square [9, 7] Value: - Possibilites:  2 456 89
+Square [9, 8] Value: - Possibilites:  23456789
+Square [9, 9] Value: 1 Possibilites:  23 56789
+
+
