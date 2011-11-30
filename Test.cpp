@@ -127,6 +127,11 @@ Function to test the game class
 -----------------------------------------------------------------------------*/
 void testGame()
 {
+	char c;
 	Game g = Game("output.txt", "input.txt");
-	g.Menu();
+	while(c != 'e')
+	{
+		c = g.Menu();
+		g.Action(c);
+	}
 }
