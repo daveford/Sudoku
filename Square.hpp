@@ -24,7 +24,7 @@ public:
 
 	//get functions
 	//mostly used for testing
-	//char getValue(){ return value; };
+	char getValue(){ return SquareState::getValue(); };
 
 	//function prototypes
 	ostream& print( ostream& );

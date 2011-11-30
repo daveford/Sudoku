@@ -82,3 +82,21 @@ void Board::print(ostream& out)
 		out << endl;
 	}
 }
+
+void Board::saveState(Frame* f)
+{
+	for(int c=0; c<81; ++c)
+	{
+		f->operator[](c) = *sub(c/9, c%9).GetState();
+	}
+}
+
+void Board::restoreState(Frame* f)
+{
+	for(int c=0; c<81; ++c)
+	{
+		//cout << f->operator[](c).getValue() << endl;
+		//sub(c/9, c%9).mark(f->operator[](c).getValue());
+		*sub(c/9, c%9).GetState() = f->operator[](c);
+	}
+}

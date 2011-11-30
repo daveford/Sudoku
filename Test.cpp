@@ -4,27 +4,31 @@
 #include "Square.hpp"
 #include "Board.hpp"
 #include "Cluster.hpp"
+#include "Frame.hpp"
+#include "Game.hpp"
 //#include "UnitTest++.h"
 
 void testSquare();
 void testBoard();
 void testCluster();
+void testGame();
 
 int main(int argc, const char* argv[])
 {
 	//redirec cout to the file output.txt
-	ofstream file("output.txt");
+	/*ofstream file("output.txt");
 	streambuf* buf = cout.rdbuf();
-	cout.rdbuf(file.rdbuf());
+	cout.rdbuf(file.rdbuf());*/
 
 	banner();
-	testBoard();
+	//testBoard();
+	testGame();
 	//testSquare();
 	//testCluster();
 	bye();
 
 	//redirect cout to screen
-	cout.rdbuf(buf);
+	//cout.rdbuf(buf);
 	return 0;
 }
 
@@ -66,6 +70,7 @@ Function to perform all the tests on the Board object
 -----------------------------------------------------------------------------*/
 void testBoard()
 {
+	Frame f;
 	//Board b = Board("file.txt"); //file does not exist
 	Board* b1 = new Board("input.txt");
 	b1->sub(3, 6).mark('3');
@@ -80,7 +85,23 @@ void testBoard()
 	b1->sub(4, 7).turnOff(8);
 	b1->sub(8, 2).turnOff(1);
 	b1->sub(8, 2).turnOff(2);*/
-	b1->print(cout);
+	b1->saveState(&f);
+	//DUMPp(f);
+	for(int c=0; c<81; ++c)
+	{
+		//cout << hex << *f->operator[](c) << endl;
+		f.operator[](c).print(cout);
+		cout << endl;
+	}
+	b1->sub(1,1).mark('2');
+	b1->restoreState(&f);
+	for(int c=0; c<81; ++c)
+	{
+		//cout << hex << *f->operator[](c) << endl;
+		f.operator[](c).print(cout);
+		cout << endl;
+	}
+	//b1->print(cout);
 }
 
 /*-----------------------------------------------------------------------------
@@ -99,4 +120,13 @@ void testCluster()
 	sq[8]->mark('7');
 	//cl.shoop(sq[4], '4');
 	cout << cl;
+}
+
+/*-----------------------------------------------------------------------------
+Function to test the game class
+-----------------------------------------------------------------------------*/
+void testGame()
+{
+	Game g = Game("output.txt", "input.txt");
+	g.Menu();
 }

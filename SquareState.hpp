@@ -23,6 +23,7 @@ public:
 	ostream& print( ostream& );
 	virtual void turnOff(int n);
 	virtual void mark(char c){Value = c;};
+	virtual char getValue(){return Value;};
 };
 
 inline ostream& operator << (ostream& out, SquareState& sq)

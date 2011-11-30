@@ -5,6 +5,7 @@ This class represents the Suduko board and all of it components
 #include "tools.hpp"
 #include "Square.hpp"
 #include "Cluster.hpp"
+#include "Frame.hpp"
 
 class Board
 {
@@ -23,6 +24,8 @@ public:
 	//functions
 	Square& sub(int j, int k);
 	void print(ostream&);
+	void saveState(Frame* f);
+	void restoreState(Frame* f);
 };
 
 inline ostream& operator << (ostream& out, Board& b)
