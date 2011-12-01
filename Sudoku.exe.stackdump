@@ -1,0 +1,8 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=004064B9
+eax=FFFFFFFF ebx=03FE0009 ecx=00000004 edx=00000000 esi=61243829 edi=00000000
+ebp=0028CD2D esp=0028CD20 program=C:\Users\Dave\Documents\School\CS626\Sudoku\Sudoku.exe, pid 3620, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028CD2D  004064B9  (09004064, 2D03FE00, B8610070, 09004064)
+      1 [main] Sudoku 3620 exception::handle: Error while dumping state (probably corrupted stack)

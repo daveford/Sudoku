@@ -21,7 +21,7 @@ int main(int argc, const char* argv[])
 	cout.rdbuf(file.rdbuf());*/
 
 	banner();
-	//testBoard();
+	testBoard();
 	testGame();
 	//testSquare();
 	//testCluster();
@@ -70,38 +70,29 @@ Function to perform all the tests on the Board object
 -----------------------------------------------------------------------------*/
 void testBoard()
 {
+	char temp;
 	Frame f;
 	//Board b = Board("file.txt"); //file does not exist
 	Board* b1 = new Board("input.txt");
+	
+	b1->print(cout);
+	
+	b1->saveState(&f);
+	
+	b1->sub(1,1).mark('2');
+	b1->sub(1,2).mark('6');
 	b1->sub(3, 6).mark('3');
 	b1->sub(2, 1).mark('9');
 	b1->sub(7, 5).mark('5');
 	b1->sub(8, 8).mark('1');
 	b1->sub(4, 8).mark('4');
 	b1->sub(5, 6).mark('7');
-	/*b1->sub(4, 7).turnOff(3);
-	b1->sub(4, 7).turnOff(1);
-	b1->sub(4, 7).turnOff(9);
-	b1->sub(4, 7).turnOff(8);
-	b1->sub(8, 2).turnOff(1);
-	b1->sub(8, 2).turnOff(2);*/
-	b1->saveState(&f);
-	//DUMPp(f);
-	for(int c=0; c<81; ++c)
-	{
-		//cout << hex << *f->operator[](c) << endl;
-		f.operator[](c).print(cout);
-		cout << endl;
-	}
-	b1->sub(1,1).mark('2');
+
+	b1->print(cout);
+
 	b1->restoreState(&f);
-	for(int c=0; c<81; ++c)
-	{
-		//cout << hex << *f->operator[](c) << endl;
-		f.operator[](c).print(cout);
-		cout << endl;
-	}
-	//b1->print(cout);
+
+	b1->print(cout);
 }
 
 /*-----------------------------------------------------------------------------
@@ -129,7 +120,7 @@ void testGame()
 {
 	char c;
 	Game g = Game("output.txt", "input.txt");
-	while(c != 'e')
+	while(c != 'q')
 	{
 		c = g.Menu();
 		g.Action(c);
